@@ -4,8 +4,7 @@
    *********
 */
 :root {
-  --blue: #048cec;
-  --darkBlue: #1e90ff;
+  --green: #00b3a3;
   --black: #040707;
   --white: #fafdff;
 }
@@ -60,7 +59,7 @@ header .container {
 }
 header .nav {
   position: fixed;
-  background-color: var(--blue);
+  background-color: var(--green);
   width: 50vw;
   top: 0px;
   right: 0px;
@@ -231,7 +230,7 @@ header .hamburger.active span:nth-child(3) {
   flex-grow: 1;
 }
 .home span {
-  color: var(--darkBlue);
+  color: var(--green);
   text-transform: uppercase;
   font-size: 1.25em;
   margin-bottom: 20px;
@@ -239,7 +238,7 @@ header .hamburger.active span:nth-child(3) {
 .home span::before {
   content: "";
   display: inline-block;
-  border-top: 2px solid var(--darkBlue);
+  border-top: 2px solid var(--green);
   margin: 0 2em 0 0;
   width: 80px;
   height: 2px;
@@ -280,7 +279,7 @@ header .hamburger.active span:nth-child(3) {
 }
 /* button 1 */
 .btnfos-1 {
-  background: var(--blue);
+  background: var(--green);
   font-size: 1em;
   position: absolute;
   font-weight: 100;
@@ -344,7 +343,7 @@ header .hamburger.active span:nth-child(3) {
   min-width: 200px;
 }
 .about span {
-  color: var(--darkBlue);
+  color: var(--green);
   text-transform: uppercase;
   font-size: 1.85em;
   margin-bottom: 30px;
@@ -352,7 +351,7 @@ header .hamburger.active span:nth-child(3) {
 .about span::before {
   content: "";
   display: inline-block;
-  border-top: 2px solid var(--darkBlue);
+  border-top: 2px solid var(--green);
   margin: 0 2em 0 0;
   width: 60px;
   height: 2px;
@@ -419,14 +418,14 @@ header .hamburger.active span:nth-child(3) {
   color: var(--white);
 }
 .services span {
-  color: var(--darkBlue);
+  color: var(--green);
   text-transform: uppercase;
   font-size: 1.8em;
 }
 .services span::before {
   content: "";
   display: inline-block;
-  border-top: 2px solid var(--darkBlue);
+  border-top: 2px solid var(--green);
   margin: 0 2em 0 0;
   width: 60px;
   height: 2px;
@@ -471,7 +470,7 @@ header .hamburger.active span:nth-child(3) {
   margin: 12vh auto;
 }
 .pricing-table span:first-child {
-  color: var(--darkBlue);
+  color: var(--green);
   text-transform: uppercase;
   font-size: 2.25em;
   display: block;
@@ -481,7 +480,7 @@ header .hamburger.active span:nth-child(3) {
 .pricing-table span:first-child::before {
   content: "";
   display: inline-block;
-  border-top: 2px solid var(--darkBlue);
+  border-top: 2px solid var(--green);
   margin: 0 2em 0 0;
   width: 60px;
   height: 2px;
@@ -510,7 +509,7 @@ header .hamburger.active span:nth-child(3) {
     0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
 }
 .pricing-card-header {
-  background-color: var(--blue);
+  background-color: var(--green);
   display: inline-block;
   color: var(--white);
   padding: 12px 30px;
@@ -521,11 +520,11 @@ header .hamburger.active span:nth-child(3) {
   transition: 0.4s linear;
 }
 .pricing-card:hover .pricing-card-header {
-  box-shadow: 0 0 0 20em var(--blue);
+  box-shadow: 0 0 0 20em var(--green);
 }
 .price {
   font-size: 60px;
-  color: var(--blue);
+  color: var(--green);
   margin: 40px 0;
   transition: 0.2s linear;
 }
@@ -547,8 +546,8 @@ header .hamburger.active span:nth-child(3) {
   display: inline-block;
   margin-bottom: 40px;
   margin-top: 80px;
-  border: 2px solid var(--blue);
-  color: var(--blue);
+  border: 2px solid var(--green);
+  color: var(--green);
   padding: 18px 40px;
   border-radius: 8px;
   text-transform: uppercase;
@@ -556,7 +555,7 @@ header .hamburger.active span:nth-child(3) {
   transition: 0.3s linear;
 }
 .order-btn:hover {
-  background-color: var(--blue);
+  background-color: var(--green);
   color: var(--white);
 }
 @media screen and (max-width: 1100px) {
@@ -582,14 +581,14 @@ header .hamburger.active span:nth-child(3) {
   margin-bottom: 50px;
 }
 .maps span {
-  color: var(--darkBlue);
+  color: var(--green);
   text-transform: uppercase;
   font-size: 1.85em;
 }
 .maps span::before {
   content: "";
   display: inline-block;
-  border-top: 2px solid var(--darkBlue);
+  border-top: 2px solid var(--green);
   margin: 0 2em 0 0;
   width: 60px;
   height: 2px;
@@ -650,7 +649,7 @@ header .hamburger.active span:nth-child(3) {
   margin-bottom: 15px;
   width: 50px;
   height: 4px;
-  background-color: var(--darkBlue);
+  background-color: var(--green);
   outline: none;
   border: none;
 }
@@ -915,4 +914,10 @@ header .hamburger.active span:nth-child(3) {
   .footer-right {
     width: 200px;
   }
+}
+
+.logo a {
+  color: var(--green);
+  font-size: 2rem;
+  font-family: fantasy;
 }
