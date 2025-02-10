@@ -16,6 +16,7 @@
 }
 html {
   scroll-behavior: smooth;
+  background: var(--green);
 }
 body {
   margin: 0;
@@ -343,7 +344,6 @@ header .hamburger.active span:nth-child(3) {
   min-width: 200px;
 }
 .about span {
-  color: var(--green);
   text-transform: uppercase;
   font-size: 1.85em;
   margin-bottom: 30px;
@@ -351,7 +351,7 @@ header .hamburger.active span:nth-child(3) {
 .about span::before {
   content: "";
   display: inline-block;
-  border-top: 2px solid var(--green);
+  border-top: 2px solid #000;
   margin: 0 2em 0 0;
   width: 60px;
   height: 2px;
@@ -920,4 +920,12 @@ header .hamburger.active span:nth-child(3) {
   color: var(--green);
   font-size: 2rem;
   font-family: fantasy;
+}
+
+.service-flex i {
+  color: var(--green);
+}
+
+.service-flex h3 {
+  color: var(--green);
 }
