@@ -181,7 +181,7 @@ header .hamburger span {
 }
 header.sticky {
   padding: 10px;
-  background-color: var(--black);
+  background-color: var(--white);
   font-size: 0.9em;
   transition: all 0.3s ease;
 }
@@ -923,7 +923,7 @@ header .hamburger.active span:nth-child(3) {
 .logo a {
   color: var(--green);
   font-size: 2rem;
-  font-family: fantasy;
+  font-family: "Coda Caption";
 }
 
 .service-flex i {
