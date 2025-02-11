@@ -4,7 +4,7 @@
    *********
 */
 :root {
-  --green: #940000;
+  --green: #6900be;
   --black: #000;
   --white: #fafdff;
 }
@@ -347,11 +347,12 @@ header .hamburger.active span:nth-child(3) {
   text-transform: uppercase;
   font-size: 1.85em;
   margin-bottom: 30px;
+  color:var(--white);
 }
 .about span::before {
   content: "";
   display: inline-block;
-  border-top: 2px solid #000;
+  border-top: 2px solid var(--white);
   margin: 0 2em 0 0;
   width: 60px;
   height: 2px;
@@ -365,12 +366,14 @@ header .hamburger.active span:nth-child(3) {
   font-size: 2em;
   text-transform: uppercase;
   font-family: "Coda Caption", sans-serif;
+  color:var(--white);
 }
 .about-text p:first-of-type {
   font-weight: bold;
   opacity: 0.9;
   margin-top: 10px;
   padding-top: 30px;
+  color:var(--white);
 }
 .about-text p {
   word-spacing: 2px;
@@ -378,6 +381,7 @@ header .hamburger.active span:nth-child(3) {
   padding-top: 30px;
   font-size: 0.9em;
   font-family: Verdana, sans-serif;
+  color:var(--white);
 }
 /*
    *********
@@ -610,8 +614,8 @@ header .hamburger.active span:nth-child(3) {
 */
 .footer {
   margin-top: 10vh;
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   padding: 2vh 0;
 }
 .footer-container {
@@ -631,7 +635,7 @@ header .hamburger.active span:nth-child(3) {
 }
 .footer a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--black);
 }
 .footer h4 {
   font-family: Verdana, sans-serif;
@@ -681,7 +685,7 @@ header .hamburger.active span:nth-child(3) {
   -webkit-transition: 0.3s ease;
 }
 .footer-center a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--green);
 }
 .footer-right i {
   margin-bottom: 13px;
